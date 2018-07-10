@@ -13,6 +13,7 @@ object Test {
  /* val a= args(0);*/
       val st_time = sqlcontext.sql(s""" select CURRENT_TIMESTAMP """).take(1)(0).get(0).toString
       println("ok",st_time)
+      println("Success Run")
 
     }
 
